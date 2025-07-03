@@ -1,0 +1,180 @@
+@media (max-width: 600px) {
+
+    .container,
+    .organize-container,
+    .newsletter-container,
+    .partners-container,
+    .testimonial-container,
+    .pricing-cards,
+    .contact-container,
+    .footer-container {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .header,
+    .footer {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .nav {
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        height: 60px;
+    }
+
+    .social-icons {
+        margin-top: -20px;
+    }
+
+
+    .nav-links {
+        display: none !important;
+    }
+
+    .logo {
+        margin: 0 !important;
+        width: 180px !important;
+    }
+
+    .nav-right {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .social-icons img {
+        width: 28px !important;
+        height: 28px !important;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem !important;
+    }
+
+    .features-grid,
+    .partners-grid,
+    .pricing-cards {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: stretch !important;
+    }
+
+    .feature-card,
+    .partner-card,
+    .pricing-card {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    /* Show only 2 partner cards per row on mobile */
+    .partners-grid {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 16px !important;
+    }
+
+    .partner-card {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .organize-container,
+    .newsletter-container,
+    .contact-container,
+    .footer-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .organize-image img,
+    .newsletter-image img {
+        width: 100% !important;
+        max-width: 320px !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .testimonial-slider {
+        flex-direction: column !important;
+    }
+
+    .testimonial {
+        width: 100% !important;
+    }
+
+    .map-embed iframe {
+        width: 100% !important;
+        min-height: 200px !important;
+    }
+
+    .footer-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .footer-col {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1023px) {
+
+    .features-grid,
+    .partners-grid,
+    .pricing-cards {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        gap: 24px !important;
+        justify-content: center !important;
+    }
+
+    .feature-card,
+    .partner-card,
+    .pricing-card {
+        width: 48% !important;
+        margin: 0 auto !important;
+    }
+
+    .organize-container,
+    .newsletter-container,
+    .contact-container,
+    .footer-container {
+        flex-direction: row !important;
+        gap: 24px !important;
+        flex-wrap: wrap !important;
+    }
+
+    .footer-col {
+        width: 48% !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .container,
+    .organize-container,
+    .newsletter-container,
+    .partners-container,
+    .testimonial-container,
+    .pricing-cards,
+    .contact-container,
+    .footer-container {
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+        padding: 0 2rem !important;
+    }
+
+    .feature-card,
+    .pricing-card {
+        width: 30% !important;
+    }
+
+    .footer-col {
+        width: 24% !important;
+    }
+}
